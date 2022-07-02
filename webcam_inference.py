@@ -5,7 +5,7 @@ from ModelName import ModelName
 # Initialize the webcam
 cap = cv2.VideoCapture(0)
 
-# Initialize YOLOv6 object detector
+# Initialize Inference model
 model_path = "models/xxxxxx.onnx"
 modelName = ModelName(model_path)
 
