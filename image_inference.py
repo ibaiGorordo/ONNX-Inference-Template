@@ -3,7 +3,7 @@ from imread_from_url import imread_from_url
 
 from ModelName import ModelName
 
-# Initialize YOLOv6 object detector
+# Initialize inference model
 model_path = "models/xxxxx.onnx"
 modelName = ModelName(model_path)
 
