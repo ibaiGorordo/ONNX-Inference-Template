@@ -81,15 +81,15 @@ if __name__ == '__main__':
 
     model_path = "../models/xxxx.onnx"
 
-    # Initialize YOLOv6 object detector
+    # Initialize model
     modelName = ModelName(model_path)
 
     img = imread_from_url("")
 
-    # Detect Objects
+    # Perform the inference in the image
     outputs = modelName(img)
 
-    # Draw detections
+    # Draw model output
     output_img = modelName.draw(img)
     cv2.namedWindow("Output", cv2.WINDOW_NORMAL)
     cv2.imshow("Output", output_img)
