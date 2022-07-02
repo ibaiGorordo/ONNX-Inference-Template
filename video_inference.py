@@ -15,7 +15,7 @@ cap.set(cv2.CAP_PROP_POS_FRAMES, start_time * 30)
 
 # out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 30, (1280, 720))
 
-# Initialize object localizer
+# Initialize inference model
 model_path = "models/xxxxxx.onnx"
 modelName = ModelName(model_path)
 
